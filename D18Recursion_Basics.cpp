@@ -11,10 +11,8 @@ void PrintNRe(int n){
     PrintNRe(n-1);   
 }
 
-double Mean(vector<int>&arr,int n){
-    
+double Mean(vector<int>&arr,int n){    
     if(n==1) return arr[0];
-
     return (Mean(arr, n-1) * (n-1) + arr[n-1]) / n;
 }
 int sum (int n){
