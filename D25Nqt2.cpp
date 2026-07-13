@@ -2,9 +2,13 @@
 using namespace std;
 int main(){
     int count0=0;
+
     int count1=0;
+
     int count2=0;
+
     int items;
+    
     cin>>items;
     int n;
     int i=1;
@@ -21,7 +25,7 @@ int main(){
         else if(riskSev[j]==0){
             count0++;
         }
-        else{
+        else if(riskSev[j]==2){
             count2++;
         }
     }
